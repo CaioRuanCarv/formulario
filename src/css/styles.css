@@ -1,0 +1,98 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url("../images/bg-repeat.jpg");
+    background-size: contain;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.duvidas{
+    display: flex;
+    align-items: center;
+}
+.duvidas .descricao{
+    color: #FFFFFF;
+    width: 300px;
+    margin-right:60px;
+}
+.duvidas .descricao h2{
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom:11px;
+}
+.duvidas .descricao p{
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+.formulario{
+    width: 340px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+.dados.pessoais{
+    margin-bottom: 15px;
+}
+.dados .informacao{
+    width: 298px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 8px;
+}
+.informacao{
+    transition: 0.2s ease-in-out;
+}
+
+.formulario .dados textarea{
+    resize: none;
+    height: 100px;
+}
+
+.formulario h3{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.formulario .button button{
+    width: 300px;
+    height: 42px;
+    background-color:#3CCC87;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+}
+
+.formulario h4{
+    font-size: 6px;
+    margin-bottom: 6px;
+    display: none;
+}
+
+.formulario.Preenchido .dados .informacao{
+    border-color: #00C22B;
+}
+
+.formulario.naoPreenchido .dados{
+    margin-bottom:0px
+}
+.formulario.naoPreenchido .dados .informacao{
+    border-color: #F52E2E;
+}
+
+.formulario.naoPreenchido h4{
+    color:#F52E2E;
+    display: block;
+}
+
+
